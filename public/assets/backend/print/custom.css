@@ -1,0 +1,358 @@
+body {
+	font-family: 'Inter', sans-serif;
+	font-size: 12px;
+	padding-top: 48px;
+	padding-bottom: 48px;
+	background: #EEEEEE;
+}
+
+.header {
+	height: 48px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	background: rgba(255, 255, 255, 0.88);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	padding: 0 16px;
+	z-index: 99;
+}
+
+.header-logo {
+	float: left;
+}
+
+.header-logo em {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 48px;
+    color: #d9531e;
+}
+
+.header-action {
+	float: right;
+	padding: 8px 0;
+}
+
+.header-action span {
+	display: block;
+	font-size: 10px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-top: 4px;
+	font-style: normal;
+	color: #ff0000;
+}
+
+.header-action .btn {
+	display: block;
+	vertical-align: middle;
+	line-height: 22px;
+	padding: 4px 12px;
+	border: solid 1px rgba(0, 0, 0, 0.1);
+	background: #fff;
+	border-radius: 3px;
+	font: inherit;
+	font-size: 14px;
+	outline: 0 !important;
+	float: left;
+	margin: 0 0 0 8px;
+	background-color: #ef4401;
+	color: #fff !important;
+	text-shadow: -0.1px -0.1px rgba(0, 0, 0, 0.12);
+	box-shadow: 0 0.1px 0.1px rgba(255, 255, 255, 0.4) inset;
+}
+
+.header-action .btn2 {
+	display: block;
+	vertical-align: middle;
+	line-height: 22px;
+	padding: 4px 12px;
+	border: solid 1px rgba(0, 0, 0, 0.1);
+	background: #fff;
+	border-radius: 3px;
+	font: inherit;
+	font-size: 14px;
+	outline: 0 !important;
+	float: left;
+	margin: 0 0 0 8px;
+	background-color: #2cc57e;
+	color: #fff !important;
+	text-shadow: -0.1px -0.1px rgba(0, 0, 0, 0.12);
+	box-shadow: 0 0.1px 0.1px rgba(255, 255, 255, 0.4) inset;
+}
+
+table {
+	width: 100%;
+}
+
+.table-sm td, .table-sm th {
+	padding: 0.3rem;
+  font-size: 12px;
+}
+
+.evoucher-wrapper {
+	max-width: 920px;
+	margin: 0 auto;
+	background: #fff;
+	border: solid 0px #e5e5e5;
+	box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+}
+
+.evoucher-body {
+	margin-top: 20px;
+	padding: 10px 10px;
+}
+
+.evoucher-body .event-detail {
+	padding: 10px;
+	border: 1px solid #DBDFE7;
+	border-radius: 4px;
+}
+
+.evoucher-body .event-detail .event-title {
+	margin: 0 0 5px 0;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+}
+
+.evoucher-body .event-detail .image_banner {
+	width: 100%;
+	border-radius: 4px;
+}
+
+.evoucher-body .event-detail .image_avatar {
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+}
+
+.evoucher-body .event-detail .event-organizer-name {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.evoucher-body .event-detail .icon-calendar, .evoucher-body .event-detail .icon-location {
+	width: 16px;
+}
+
+.evoucher-body .event-detail .event-date-time {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.evoucher-body .event-detail .event-location {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+/* .evoucher-body .order-information {
+	margin-top: 20px;
+} */
+
+.evoucher-body .order-information .title {
+	margin: 0 0 5px 0;
+	font-size: 14px;
+	line-height: 24px;
+	color: #151416;
+	font-weight: 600;
+}
+
+.evoucher-body .order-information .ticket-page {
+	font-size: 12px;
+	line-height: 24px;
+	color: #8E919B;
+}
+
+.evoucher-body .order-detail {
+	margin-top: 0;
+}
+
+.evoucher-body .order-detail .order-detail-content {
+	padding: 10px;
+	border: 1px solid #DBDFE7;
+	border-radius: 4px;
+}
+
+.evoucher-body .order-detail .order-detail-content .value-bold {
+	font-weight: 600;
+}
+
+.evoucher-body .order-detail .order-detail-content .label {
+	font-size: 12px;
+	line-height: 18px;
+	color: #8E919B;
+}
+
+.evoucher-body .order-detail .order-detail-content .value {
+	font-size: 14px;
+	line-height: 20px;
+	color: #151416;
+}
+
+.evoucher-body .order-detail .order-detail-content .ticket-quantity {
+	margin-top: 10px;
+	padding: 10px;
+	background: #F5F7FA;
+	border-radius: 4px;
+}
+
+.evoucher-body .order-detail .order-detail-content .ticket-quantity .ticket-name {
+	font-size: 12px;
+	color: #151416;
+	line-height: 18px;
+}
+
+.evoucher-body .order-detail .order-detail-content {
+	padding: 10px;
+	border: 1px solid #DBDFE7;
+	border-radius: 4px;
+}
+
+.evoucher-body .order-detail .order-detail-content .ticket-type {
+	padding: 10px 0 20px 0;
+	border-bottom: 1px solid #DBDFE7;
+}
+
+.evoucher-body .order-detail .order-detail-content .ticket-barcode {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.evoucher-body .order-detail .order-detail-content .ticket-type .name {
+	font-size: 14px;
+	font-weight: 600;
+	color: #151416;
+	line-height: 20px;
+	text-align: center;
+}
+
+.evoucher-body .order-detail .order-detail-content .ticket-type .price {
+	font-size: 14px;
+	font-weight: 600;
+	color: #0049CC;
+	line-height: 20px;
+	text-align: center;
+}
+
+.evoucher-body .tnc {
+	margin-top: 20px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #151416;
+}
+
+.evoucher-body .tnc .title {
+	margin: 0 0 5px 0;
+	font-size: 16px;
+	line-height: 24px;
+	color: #151416;
+}
+
+.table-sm td img {
+	height: 70px;
+}
+
+@media screen and (max-width: 746px)
+{
+	.evoucher-wrapper:not(.fix-width) .evoucher table:first-child tr:first-child td:first-child{
+			padding: 0px !important;
+	}
+	.evoucher-wrapper:not(.fix-width) .evoucher table:first-child tr:first-child td:first-child div{
+			padding: 0px 5px !important;
+	}
+	.evoucher-wrapper:not(.fix-width) .evoucher table:nth-child(1) p{
+			font-size: .8rem;
+	}
+	.evoucher-wrapper:not(.fix-width) .evoucher table td{
+			display: block;
+			width: 100% !important;
+			padding: 10px !important;
+	}
+	.evoucher-wrapper:not(.fix-width) .evoucher table tr:first-child td div{
+			height: auto !important;
+	}
+	.evoucher-wrapper:not(.fix-width) .evoucher table:nth-child(2) tr:first-child td:first-child{
+			padding: 0px !important;
+	}
+	.evoucher-wrapper:not(.fix-width) .evoucher table tr:first-child td:first-child img{
+			height: auto !important;
+			width: auto !important;
+			max-width: 100% !important;
+			padding: 0px !important;
+	}
+	.evoucher-wrapper:not(.fix-width) .evoucher table td img{
+			max-width: 100%;
+			height: auto !important;
+	}
+	.evoucher-wrapper:not(.fix-width) .evoucher table:nth-child(2) tbody tr:first-child td:first-child img{
+			width: 100%;
+	}
+	.evoucher-wrapper:not(.fix-width) .evoucher table td img.image_logo{
+			max-width: 150px !important;
+	}
+
+	.evoucher-wrapper {
+		width: 95%;
+	}
+
+	.evoucher-body .order-detail{
+		font-size: 8px;
+	}
+
+	.header-action {
+		margin-top: 5px;
+	}
+
+	.header-action .btn {
+		padding: 4px 12px;
+		font-size: 9px;
+	}
+	
+	.header-action .btn2 {
+		padding: 4px 12px;
+		font-size: 9px;
+	}
+
+	.table-sm td, .table-sm th {
+		font-size: 8px;
+	}
+
+	.table-sm td img {
+		height: 20px;
+	}
+}
+
+.evoucher-wrapper.fix-width{
+		min-width: 746px;
+}
+
+.evoucher-wrapper.fix-width .evoucher{
+		width: 100%;
+}
+
+/* .evoucher-wrapper-new{height:94vh}.break{page-break-before:always} */
+.form-check {
+	padding-left: 2.7rem;
+	margin-bottom: 5px;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+.form-check-input {
+	position: absolute;
+  margin-top: 0.2rem;
+	margin-left: -1.25rem;
+}
+
+label {
+	font-weight: 400;
+}
